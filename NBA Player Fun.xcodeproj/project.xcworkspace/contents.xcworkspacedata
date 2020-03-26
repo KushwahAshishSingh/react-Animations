@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NBA Player Fun.xcodeproj">
+      location = "group:/Users/ashish/Desktop/NBA Player Fun/NBA Player Fun/PlayerList.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../../../Downloads/Player Info/Player.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		758A8647242B6229002D60E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758A8646242B6229002D60E1 /* AppDelegate.swift */; };
 		758A8649242B6229002D60E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758A8648242B6229002D60E1 /* SceneDelegate.swift */; };
-		758A864B242B6229002D60E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758A864A242B6229002D60E1 /* ContentView.swift */; };
 		758A864D242B6232002D60E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758A864C242B6232002D60E1 /* Assets.xcassets */; };
 		758A8650242B6232002D60E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758A864F242B6232002D60E1 /* Preview Assets.xcassets */; };
 		758A8653242B6232002D60E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758A8651242B6232002D60E1 /* LaunchScreen.storyboard */; };
+		758A865A242B6F9A002D60E1 /* PlayerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758A864A242B6229002D60E1 /* PlayerDetail.swift */; };
+		75F5934B242BAACE003774AD /* statText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F5934A242BAACE003774AD /* statText.swift */; };
+		75F5934D242BD73F003774AD /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F5934C242BD73F003774AD /* PlayerRow.swift */; };
+		75F5934F242C100E003774AD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F5934E242C100E003774AD /* Player.swift */; };
+		75F59351242C1388003774AD /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F59350242C1387003774AD /* PlayerList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		758A8643242B6229002D60E1 /* NBA Player Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Player Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		758A8646242B6229002D60E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		758A8648242B6229002D60E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		758A864A242B6229002D60E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		758A864A242B6229002D60E1 /* PlayerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetail.swift; sourceTree = "<group>"; };
 		758A864C242B6232002D60E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		758A864F242B6232002D60E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		758A8652242B6232002D60E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		758A8654242B6232002D60E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75F5934A242BAACE003774AD /* statText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statText.swift; sourceTree = "<group>"; };
+		75F5934C242BD73F003774AD /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		75F5934E242C100E003774AD /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "../../../Downloads/Player Info/Player.swift"; sourceTree = "<group>"; };
+		75F59350242C1387003774AD /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerList.swift; path = "/Users/ashish/Desktop/NBA Player Fun/NBA Player Fun/PlayerList.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				758A8646242B6229002D60E1 /* AppDelegate.swift */,
 				758A8648242B6229002D60E1 /* SceneDelegate.swift */,
-				758A864A242B6229002D60E1 /* ContentView.swift */,
+				758A864A242B6229002D60E1 /* PlayerDetail.swift */,
+				75F5934C242BD73F003774AD /* PlayerRow.swift */,
+				75F5934A242BAACE003774AD /* statText.swift */,
+				75F5934E242C100E003774AD /* Player.swift */,
+				75F59350242C1387003774AD /* PlayerList.swift */,
 				758A864C242B6232002D60E1 /* Assets.xcassets */,
 				758A8651242B6232002D60E1 /* LaunchScreen.storyboard */,
 				758A8654242B6232002D60E1 /* Info.plist */,
@@ -148,7 +160,11 @@
 			files = (
 				758A8647242B6229002D60E1 /* AppDelegate.swift in Sources */,
 				758A8649242B6229002D60E1 /* SceneDelegate.swift in Sources */,
-				758A864B242B6229002D60E1 /* ContentView.swift in Sources */,
+				75F5934B242BAACE003774AD /* statText.swift in Sources */,
+				758A865A242B6F9A002D60E1 /* PlayerDetail.swift in Sources */,
+				75F5934F242C100E003774AD /* Player.swift in Sources */,
+				75F59351242C1388003774AD /* PlayerList.swift in Sources */,
+				75F5934D242BD73F003774AD /* PlayerRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
